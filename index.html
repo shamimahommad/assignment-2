@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flower Market Responsive</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha538-..." crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body class="w-[1440px] mx-auto">
+
+<body class="w-[1440px] mx-auto ">
     <header>
-        <nav class="w-[1140px] mx-auto flex justify-between mb-10">
+        <nav class=" mx-auto flex justify-between mb-10">
             <img class="w-auto" src="img/logo.png" alt="Official Logo">
             <ul class="flex items-center gap-10 ">
                 <li>
@@ -20,18 +25,108 @@
                 <li>
                     <a href="#">About Us</a>
                 </li>
-                <li>                    
+                <li>
+                    <a href="#" class="fa-solid fa-cart-shopping"></a>
                     <a href="#">Cart ($56)</a>
                 </li>
             </ul>
         </nav>
+        <!-- Banner Start -->
         <div class="w-[1140px] mx-auto grid grid-cols-2 items-center">
-            <div class="mt-16">
-                <h3 class="text-7xl font-bold">ALWAYS <span class="text-orange-500">FRESH FLOWERS</span></h3>
-                <p class="">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+            <div class="mt-16 ">
+                <h3 class="font-noto text-[71px] font-bold">ALWAYS<span class="txt-color"> FRESH FLOWERS</span></h3>
+                <p class="font-inter des-color">Indulge your senses with the beauty and fragrance of our fresh flower
+                    shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect
+                    for any occasion. </p>
             </div>
+            <!-- banner image -->
             <img class="w-auto" src="img/hero-flower.png" alt="Flowers">
         </div>
+        <!-- banner end -->
     </header>
+    <main>
+        <!-- Our Plan Section Start -->
+        <section class="mt-10 p-5 text-center">
+            <h3 class="font-noto font-bold text-6xl p-5"><span class="txt-color">Our</span> Plan</h3>
+            <p class="des-color text-[1.4rem]">Indulge your senses with the beauty and fragrance of our fresh flower
+                shop. From <br> classic roses to exotic blooms, we offer a wide variety of fresh.</p>
+        </section>
+        <!-- Our Plan Section End -->
+
+        <!-- Add to cart section Start -->
+        <section class="m-2.5 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+            <div title="flower-card-1" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Lily Blossom">
+                <h1 class="font-inter font-bold">Lily Blossom</h1>
+                <p class="font-inter font-bold">20$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+            <div title="flower-card-2" class="w-68 flex flex-col items-center gap-2.5">
+                <img src="img/sample-flower-image.png" alt="Rose Bloom">
+                <h1 class="font-inter font-bold">Rose Bloom</h1>
+                <p class="font-inter font-bold">25$ USD</p>
+                <button class="btn font-inter">ADD TO CART</button>
+            </div>
+
+        </section>
+        <!-- Add to cart section End -->
+
+        <!-- Flower Plant Lover Start-->
+         <section class="mt-52 grid grid-cols-2">
+            <div>
+                <img src="img/flower-store.png" alt="">
+            </div>
+            <ul>
+                <h3>Flower & Plants Lover</h3>
+
+                <ol>
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
+
+                    <li>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>                    
+                </ol>
+            </ul>
+         </section>
+    </main>
+
 </body>
+
 </html>
